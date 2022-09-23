@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\daniq\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\daniq\\.nuget\\packages"
+    ]
+  }
+}
