@@ -1,0 +1,13 @@
+﻿@model MVC.Models.UserModel
+
+@if (@Model.IsLogged){
+    @if (Model.IsAdmin){
+        <h1>You are Admin!</h1>
+    }
+    else{
+        <h1>You are user!</h1>
+    }
+}
+else{
+    <h1>Entered wrong data.Try again: <a href="@Url.Action("Index","Login")">Login page</a></h1>
+}
